@@ -1,0 +1,14 @@
+Class 3: Newtonian Gravity
+
+Gravity:
+    Newton's Law of Universal Gravitation:
+        F = Gm1m2/r^2
+        where 
+            G is the Gravitational constant, and
+            A particle with mass m1 will attract another particle with mass m2 and distance r with a force F given by above eq.
+        Note: This is a universal attraction. Every particle in the Universe attracts every other particle with this force.
+    Gravitational Mass:
+        Newton's law of U.G defines the gravitational mass of a body
+        A spherical object with mass M creates the same gravitational field as a particle of the same mass M at the sphere's center
+    Weak equivalence principle:
+        Inertial mass = Gravitational mass

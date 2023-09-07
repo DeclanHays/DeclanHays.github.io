@@ -1,9 +1,17 @@
 import * as React from 'react';
 
-import { ChakraProvider, VStack, Flex, Heading, IconButton, useColorMode, Spacer, Text } from '@chakra-ui/react';
+import { ChakraProvider, VStack, Flex, Heading, IconButton, useColorMode, Spacer, Text, Container } from '@chakra-ui/react';
+import {
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
+  } from '@chakra-ui/react'
 import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin, FaLink } from 'react-icons/fa';
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
+import Resume from './components/Resume';
+
 
 function App() {
 
@@ -11,15 +19,17 @@ function App() {
     const isDark = colorMode === 'dark';
 
     return (
-        <VStack p={5} >
+        <VStack p={5} align='center'>
             <Flex w="100%">
                 <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">Declan Hays</Heading>
                 <Spacer></Spacer>
                 <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
             </Flex>
-            <Spacer></Spacer>
-            <Header></Header>
-            <AboutMe></AboutMe>
+            <Container maxW='container.xl'>
+                <Header></Header>
+                <Resume></Resume>
+            </Container>
+            
         </VStack>
     );
 }
