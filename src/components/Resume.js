@@ -44,7 +44,7 @@ function Resume() {
                     <h>
                         <AccordionButton>
                             <Box as='span' flex='1'>
-                                <Text fontSize="4xl" fontWeight='bold' alignSelf="flex-start" ml=''>Education</Text>
+                                <Text fontSize="4xl" fontWeight='bold' alignSelf="flex-start">Education</Text>
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
