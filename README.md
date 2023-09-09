@@ -10,4 +10,4 @@ Deployed using Github pages.
 
 ## Available Scripts
 
-Use ###`npm run deploy` to deploy website changes.
+Use `###npm run deploy` to deploy website changes.
