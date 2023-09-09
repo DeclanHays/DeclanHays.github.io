@@ -1,14 +1,7 @@
 import * as React from 'react';
 
-import { ChakraProvider, VStack, Flex, Heading, IconButton, useColorMode, Spacer, Text, Container } from '@chakra-ui/react';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionButton,
-    AccordionPanel,
-    AccordionIcon,
-  } from '@chakra-ui/react'
-import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin, FaLink } from 'react-icons/fa';
+import { VStack, Flex, Heading, IconButton, useColorMode, Spacer, Container } from '@chakra-ui/react';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import Header from './components/Header';
 import Resume from './components/Resume';
 

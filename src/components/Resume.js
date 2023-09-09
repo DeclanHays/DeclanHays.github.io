@@ -1,14 +1,9 @@
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Flex, HStack, ListItem, Text, UnorderedList, Stack, useMediaQuery, IconButton, Icon, Spacer } from '@chakra-ui/react';
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Flex, HStack, ListItem, Text, UnorderedList, Stack, useMediaQuery, Spacer } from '@chakra-ui/react';
 import React from 'react';
-import { FaMoon, FaTerminal } from 'react-icons/fa';
 
 function Resume() {
 
-    //const { colorMode } = useColorMode();
-    //const isDark = colorMode === "dark";
-
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px");
-
 
     return (
         <Flex flexDirection='row' ml='8'>
@@ -56,10 +51,10 @@ function Resume() {
                     </h>
                     <AccordionPanel pb={4}>
                         <Flex flexWrap='wrap'>
-                            <Box w='375px'>
+                            <Box>
                                 <Text fontSize='xl' fontWeight='bold' >University of Maryland, College Park</Text>
                                 <Text fontSize='l' >GPA: 3.48/4.00</Text>
-                                <Text>Relevant Coursework</Text>
+                                <Text>Relevant Coursework:</Text>
                                 <UnorderedList>
                                     <ListItem>Current: CMSC 421: Intro to Artificial Intelligence (Python)</ListItem>
                                     <ListItem>Current: CMSC 320: Intro to Data Science (Python)</ListItem>
@@ -74,20 +69,20 @@ function Resume() {
                                 </UnorderedList>
                             </Box>
                             <Spacer />
-                            <Box w='350px'>
+                            <Box>
                                 <Text fontSize='xl' fontWeight='bold' >Anne Arundel Community College</Text>
                                 <Text fontSize='l' >GPA: 3.93/4.00</Text>
-                                <Text>Relevant Coursework</Text>
+                                <Text>Relevant Coursework:</Text>
                                 <UnorderedList>
                                     <ListItem>Intro to Data Science</ListItem>
                                     <ListItem>Object Oriented Programming w/ Java</ListItem>
                                 </UnorderedList>
                             </Box>
                             <Spacer />
-                            <Box w='350px'>
+                            <Box>
                                 <Text fontSize='xl' fontWeight='bold' >South River High School</Text>
                                 <Text fontSize='l' >GPA: 3.90/4.00</Text>
-                                <Text>Relevant Coursework</Text>
+                                <Text>Relevant Coursework:</Text>
                                 <UnorderedList>
                                     <ListItem>A.P Computer Science A</ListItem>
                                 </UnorderedList>
@@ -109,10 +104,8 @@ function Resume() {
                     <AccordionPanel pb={4}>
                         <Stack>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>Veradigm</Text>
-                                    <Text fontSize='l'>| Software Engineering Intern | May 2023 - Aug 2023</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>Veradigm</Text>
+                                <Text fontSize='l'>Software Engineering Intern | May 2023 - Aug 2023</Text>
                                 <UnorderedList>
                                     <ListItem>Created a testing suite using JavaScript and Puppeteer for validating component styles.</ListItem>
                                     <ListItem>Expanded accessibility for pre-existing Ember.js components using CSS classes.</ListItem>
@@ -123,11 +116,8 @@ function Resume() {
                                 </UnorderedList>
                             </Box>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>South River Boat Rentals</Text>
-                                    <Text fontSize='l'>| Captain/Customer Service Representative</Text>
-                                    <Text fontSize='l'>| May 2018 - Aug 2022</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>South River Boat Rentals</Text>
+                                <Text fontSize='l'>Captain/Customer Service Representative | May 2018 - Aug 2022 </Text>
                                 <UnorderedList>
                                     <ListItem>Led customers on 4-to-8-hour excursions on the Chesapeake Bay.</ListItem>
                                     <ListItem>Taught customers to drive boats safely and to adhere to coast guard regulations.</ListItem>
@@ -135,11 +125,8 @@ function Resume() {
                                 </UnorderedList>
                             </Box>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>Anne Arundel Community College</Text>
-                                    <Text fontSize='l'>| Data Science Tutor</Text>
-                                    <Text fontSize='l'>| Oct 2021 - May 2022</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>Anne Arundel Community College</Text>
+                                <Text fontSize='l'>Data Science Tutor | Oct 2021 - May 2022 </Text>
                                 <UnorderedList>
                                     <ListItem>Instructed novice programmers in Python and guided debugging.</ListItem>
                                     <ListItem>Assisted math students with coursework up to Calculus I.</ListItem>
@@ -211,53 +198,38 @@ function Resume() {
                     <AccordionPanel pb={4}>
                         <Stack>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>Personal Website</Text>
-                                    <Text fontSize='l'>| JavaScript, HTML, CSS, React</Text>
-                                    <Text fontSize='l'>| Aug 2023 - Sep 2023</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>Personal Website</Text>
+                                <Text fontSize='l'>JavaScript, HTML, CSS, React | Aug 2023 - Sep 2023</Text>
                                 <UnorderedList>
                                     <ListItem>Used React and ChakraUI to make a personal portfolio website.</ListItem>
                                 </UnorderedList>
                             </Box>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>Jose's DVD Emporium</Text>
-                                    <Text fontSize='l'>| Haskell</Text>
-                                    <Text fontSize='l'>| May 2023</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>DVD Emporium</Text>
+                                <Text fontSize='l'>Haskell | May 2023</Text>
                                 <UnorderedList>
                                     <ListItem>Created a specialized data structure, an STM queue, for use in concurrent programs using the Software Transactional Memory model.</ListItem>
                                     <ListItem>Wrote the back end for a hypothetical DVD delivery service which uses the STM queue to schedule concurrent “drivers” to “deliver” DVD's in order, as they are ordered.</ListItem>
                                 </UnorderedList>
                             </Box>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>Data Structures</Text>
-                                    <Text fontSize='l'>| Python</Text>
-                                    <Text fontSize='l'>| Jan 2023 - May 2023</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>Data Structures</Text>
+                                <Text fontSize='l'>Python | Jan 2023 - May 2023</Text>
                                 <UnorderedList>
-                                    <ListItem>Used Python to implement various data structures including Scapegoat Trees, B+ Trees, Bloom Filters, AVL Trees, and Binary Search Trees..</ListItem>
+                                    <ListItem>Used Python to implement various data structures including Scapegoat Trees, B+ Trees, Bloom Filters, AVL Trees, and Binary Search Trees.</ListItem>
                                 </UnorderedList>
                             </Box>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>MicrOCaml</Text>
-                                    <Text fontSize='l'>| OCaml</Text>
-                                    <Text fontSize='l'>| Nov 2023</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>MicrOCaml</Text>
+                                <Text fontSize='l'>OCaml | Nov 2023</Text>
                                 <UnorderedList>
                                     <ListItem>Used OCaml to write “MicrOCaml”: a lexer, parser, and interpreter for a miniature version of OCaml. MicrOCaml allows the user to write programs which are fully processed and executed by MicrOCaml.</ListItem>
                                     <ListItem>Includes capabilities for handling “let” and “if” expressions, function definitions, anonymous functions, and binary operators.</ListItem>
                                 </UnorderedList>
                             </Box>
                             <Box>
-                                <HStack>
-                                    <Text fontSize='xl' fontWeight={'bold'}>Summer Camp App</Text>
-                                    <Text fontSize='l'>| JavaScript, HTML, CSS</Text>
-                                    <Text fontSize='l'>| Nov 2022</Text>
-                                </HStack>
+                                <Text fontSize='xl' fontWeight={'bold'}>Summer Camp App</Text>
+                                <Text fontSize='l'>JavaScript, HTML, CSS | Nov 2022</Text>
                                 <UnorderedList>
                                     <ListItem>Designed a web application, written in JavaScript, for a fictional summer camp.</ListItem>
                                     <ListItem>Utilized MongoDB to store and retrieve applicant data upon request and used Express for routing.</ListItem>
@@ -266,8 +238,7 @@ function Resume() {
                             <Box>
                                 <HStack>
                                     <Text fontSize='xl' fontWeight={'bold'}>Regular Expression Engine</Text>
-                                    <Text fontSize='l'>| OCaml</Text>
-                                    <Text fontSize='l'>| Oct 2022</Text>
+                                    <Text fontSize='l'>OCaml | Oct 2022</Text>
                                 </HStack>
                                 <UnorderedList>
                                     <ListItem>Created an engine which allows the user to convert between regular expressions, non-deterministic finite automata, and deterministic finite automata using OCaml. </ListItem>

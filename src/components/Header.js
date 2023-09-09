@@ -1,4 +1,4 @@
-import { useColorMode, useMediaQuery, Circle, Flex, Box, Text, Stack, Button, Image, HStack, Center, IconButton } from '@chakra-ui/react';
+import { useColorMode, useMediaQuery, Flex, Box, Text, Stack, Image, Center, IconButton } from '@chakra-ui/react';
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
