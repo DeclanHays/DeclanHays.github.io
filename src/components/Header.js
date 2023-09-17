@@ -27,9 +27,6 @@ function Header() {
                             <Text fontSize="xl" align="center" color={isDark ? "gray.200" : "gray.500"}>
                                 Computer Science student at the University of Maryland
                             </Text>
-                            <Text fontSize="xl" align='center' color={isDark ? "gray.200" : "gray.500"}>
-                                Previously interned at Practice Fusion
-                            </Text>
                         </Box>
 
                     </Flex>

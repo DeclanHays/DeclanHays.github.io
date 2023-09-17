@@ -78,15 +78,6 @@ function Resume() {
                                     <ListItem>Object Oriented Programming w/ Java</ListItem>
                                 </UnorderedList>
                             </Box>
-                            <Spacer />
-                            <Box>
-                                <Text fontSize='xl' fontWeight='bold' >South River High School</Text>
-                                <Text fontSize='l' >GPA: 3.90/4.00</Text>
-                                <Text>Relevant Coursework:</Text>
-                                <UnorderedList>
-                                    <ListItem>A.P Computer Science A</ListItem>
-                                </UnorderedList>
-                            </Box>
                         </Flex>
                     </AccordionPanel>
                 </AccordionItem>
@@ -201,7 +192,7 @@ function Resume() {
                                 <Text fontSize='xl' fontWeight={'bold'}>Personal Website</Text>
                                 <Text fontSize='l'>JavaScript, HTML, CSS, React | Aug 2023 - Sep 2023</Text>
                                 <UnorderedList>
-                                    <ListItem>Used React and ChakraUI to make a personal portfolio website.</ListItem>
+                                    <ListItem>Designed and implemented a responsive, mobile-friendly portfolio website using React. </ListItem>
                                 </UnorderedList>
                             </Box>
                             <Box>
