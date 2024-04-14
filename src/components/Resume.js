@@ -147,7 +147,7 @@ function Resume() {
                                     <ListItem>Java</ListItem>
                                     <ListItem>C</ListItem>
                                     <ListItem>OCaml</ListItem>
-                                    <ListItem>Haskell</ListItem>
+                                    <ListItem>Racket</ListItem>
                                 </UnorderedList>
                             </Box>
                             

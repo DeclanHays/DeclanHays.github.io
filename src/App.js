@@ -4,7 +4,7 @@ import { VStack, Flex, Heading, IconButton, useColorMode, Spacer, Container } fr
 import { FaSun, FaMoon } from 'react-icons/fa';
 import Header from './components/Header';
 import Resume from './components/Resume';
-
+import ResumeCards from './components/ResumeCards';
 
 function App() {
 
@@ -21,6 +21,7 @@ function App() {
             <Container maxW='container.xl'>
                 <Header></Header>
                 <Resume></Resume>
+                <ResumeCards></ResumeCards>
             </Container>
             
         </VStack>
