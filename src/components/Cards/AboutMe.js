@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import CardTempate from "../CardTemplate";
 
 function AboutMe() {
   let pic = "https://via.placeholder.com/100"
@@ -11,11 +11,11 @@ function AboutMe() {
   let t = "About Me";
 
   return (
-    <Card
+    <CardTempate
       pictureSource={pic}
       title={t}
       description={desc}
-    ></Card>
+    ></CardTempate>
   );
 }
 

@@ -6,7 +6,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 
-function OptionalList({ hasList=false }) {
+function CardList({ hasList=false }) {
   if (hasList) {
     return (
       <Box mt="4">
@@ -22,4 +22,4 @@ function OptionalList({ hasList=false }) {
   return null;
 }
 
-export default OptionalList;
+export default CardList;

@@ -1,11 +1,11 @@
 import { Box, Flex, HStack, ListItem, Text, UnorderedList, useMediaQuery, Image, VStack, SimpleGrid } from '@chakra-ui/react';
 import React from 'react';
-import Education from './Education';
-import AboutMe from './AboutMe';
-import Skills from './Skills';
-import Projects from './Projects';
+import Education from './Cards/Education';
+import AboutMe from './Cards/AboutMe';
+import Skills from './Cards/Skills';
+import Projects from './Cards/Projects';
 import Resume from './Resume';
-import Experience from './Experience';
+import Experience from './Cards/Experience';
 
 function ResumeCards() {
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import CardTemplate from "../CardTemplate";
 
 function Education() {
   let pic = "https://via.placeholder.com/100"
@@ -11,12 +11,12 @@ function Education() {
   veradigmExp += "Addressed accessibility issues in the Practice Fusion web application using accessibility auditing tool."
 
   return (
-    <Card
+    <CardTemplate
       pictureSource={pic}
       title={t}
       description={desc}
-      hasList = {false}
-    ></Card>
+      renderAccordion={true}
+    ></CardTemplate>
   );
 }
 

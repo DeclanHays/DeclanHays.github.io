@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import CardTempate from "../CardTemplate";
 
 function Education() {
   let pic = "https://via.placeholder.com/100"
@@ -7,11 +7,12 @@ function Education() {
   let desc = "I am currently in my senior year at the University of Maryland, College Park, pursuing my B.S. in Computer Science.";
 
   return (
-    <Card
+    <CardTempate
       pictureSource={pic}
       title={t}
       description={desc}
-    ></Card>
+      renderAccordion={true}
+    ></CardTempate>
   );
 }
 

@@ -3,8 +3,7 @@ import * as React from 'react';
 import { VStack, Flex, Heading, IconButton, useColorMode, Spacer, Container } from '@chakra-ui/react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import Header from './components/Header';
-import Resume from './components/Resume';
-import ResumeCards from './components/ResumeCards';
+import Cards from './components/Cards';
 
 function App() {
 
@@ -20,8 +19,7 @@ function App() {
             </Flex>
             <Container maxW='container.xl'>
                 <Header></Header>
-                <Resume></Resume>
-                <ResumeCards></ResumeCards>
+                <Cards></Cards>
             </Container>
             
         </VStack>

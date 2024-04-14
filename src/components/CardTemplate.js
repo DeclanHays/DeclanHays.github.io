@@ -7,9 +7,10 @@ import {
   Image,
 } from "@chakra-ui/react";
 import React from "react";
-import OptionalList from "./OptionalList";
+import CardList from "./OptionalComponents/CardList";
+import CardAccordion from "./OptionalComponents/CardAccordion";
 
-function Card({ pictureSource, title, description, renderList }) {
+function CardTemplate({ pictureSource, title, description, renderList, renderAccordion }) {
   return (
     <Flex width="100%">
       <Box
@@ -43,12 +44,17 @@ function Card({ pictureSource, title, description, renderList }) {
           </Text>
         </Box>
 
-        <OptionalList 
+        <CardList 
           hasList={renderList}>
-        </OptionalList>
+        </CardList>
+
+        <CardAccordion
+          hasAccordion={renderAccordion}>
+
+        </CardAccordion>
       </Box>
     </Flex>
   );
 }
 
-export default Card;
+export default CardTemplate;
