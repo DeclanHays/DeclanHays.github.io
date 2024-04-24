@@ -10,7 +10,7 @@ import React from "react";
 import CardList from "./OptionalComponents/CardList";
 import CardAccordion from "./OptionalComponents/CardAccordion";
 
-function CardTemplate({ pictureSource, title, description, renderList, renderAccordion }) {
+function CardTemplate({ pictureSource, title, description, renderList, renderAccordion, items }) {
   return (
     <Flex width="100%">
       <Box
@@ -49,8 +49,8 @@ function CardTemplate({ pictureSource, title, description, renderList, renderAcc
         </CardList>
 
         <CardAccordion
-          hasAccordion={renderAccordion}>
-
+          hasAccordion={renderAccordion}
+          items={items}>
         </CardAccordion>
       </Box>
     </Flex>
