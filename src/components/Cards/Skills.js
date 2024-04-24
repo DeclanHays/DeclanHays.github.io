@@ -2,7 +2,6 @@ import React from "react";
 import CardTempate from "../CardTemplate";
 
 function Skills() {
-  let pic = "https://via.placeholder.com/100"
   let t = "Skills";
   let desc = "These are the software development skills I've gained through my education and work experience.";
 
@@ -19,7 +18,7 @@ function Skills() {
     {
       title: "Web Development",
       content:
-        "Ember.js, React, HTML, CSS",
+        "",
       listItems: [
         "Ember.js",
         "React",
@@ -30,7 +29,7 @@ function Skills() {
     {
       title: "Other",
       content:
-        "Git, Node.js, Linux, Numpy, Pandas, MongoDB, Jira, Confluence",
+        "",
       listItems: [
         "Git",
         "Node.js",
@@ -46,7 +45,6 @@ function Skills() {
 
   return (
     <CardTempate
-      pictureSource={pic}
       title={t}
       description={desc}
       renderAccordion = {true}

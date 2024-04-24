@@ -2,9 +2,8 @@ import React from "react";
 import CardTempate from "../CardTemplate";
 
 function Projects() {
-  let pic = "https://via.placeholder.com/100"
   let t = "Projects";
-  let desc = "These are some of the projects I've done in my free time and for classes. aldjfal;skdjfal;skdjfl;ksaj";
+  let desc = "These are some of the projects I've done in my free time and for classes. Each one lists the language/tool used to make it, and the date.";
 
   let items = [
     {
@@ -63,24 +62,23 @@ function Projects() {
         "",
       listItems: [
         "Designed a web application, written in JavaScript, for a fictional summer camp.",
-        "Includes capabilities for handling “let” and “if” expressions, function definitions, anonymous functions, and binary operators."
+        "Utilized MongoDB to store and retrieve applicant data upon request and used Express for routing."
       ]
     },
     {
-      title: "OCaml Interpreter",
-      subTitle: "OCaml | Nov. 2023",
+      title: "Regular Expression Engine",
+      subTitle: "OCaml | Oct. 2022",
       content:
         "",
       listItems: [
-        "Used OCaml to write “MicrOCaml”: a lexer, parser, and interpreter for a miniature version of OCaml. MicrOCaml allows the user to write programs which are fully processed and executed by MicrOCaml.",
-        "Includes capabilities for handling “let” and “if” expressions, function definitions, anonymous functions, and binary operators."
+        "Created an engine which allows the user to convert between regular expressions, non-deterministic finite automata, and deterministic finite automata using OCaml.",
+        "Allows the user to provide a regular expression and test if given inputs are valid.",
       ]
     },
   ];
 
   return (
     <CardTempate
-      pictureSource={pic}
       title={t}
       description={desc}
       renderAccordion={true}

@@ -1,8 +1,9 @@
 import React from "react";
 import CardTempate from "../CardTemplate";
+import Image from "../../images/UMD-Seal.png";
 
 function Education() {
-  let pic = "https://via.placeholder.com/100";
+  let pic = Image;
   let t = "Education";
   let desc =
     "I am currently in my senior year at the University of Maryland, College Park, pursuing my B.S. in Computer Science.";

@@ -1,8 +1,9 @@
 import React from "react";
 import CardTempate from "../CardTemplate";
+import Image from "../../images/AboutMeImage.jpg";
 
 function AboutMe() {
-  let pic = "https://via.placeholder.com/100"
+  let pic = Image;
   let desc = "I am currently in my senior year at the University of Maryland, College Park, pursuing my B.S. in Computer Science. ";
   desc += "During summer of 2023, I gained experience in front-end software engineering through my internship at Veradigm. ";
   desc += "My professional interests are in front-end, back-end, and full-stack software development, as well as data science and A.I. ";
