@@ -14,7 +14,7 @@ import React from "react";
 function CardAccordion({ hasAccordion = false, items=[] }) {
   if (hasAccordion) {
     return (
-      <Accordion allowMultiple allowToggle defaultIndex={[0]} marginTop="8">
+      <Accordion allowMultiple allowToggle marginTop="8">
         {items.map((item, index) => (
           <AccordionItem key={index}>
             <AccordionButton>
