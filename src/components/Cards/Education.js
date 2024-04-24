@@ -18,10 +18,12 @@ function Education() {
         "Current: CMSC430: Intro to Compilers",
         "Current: CMSC417: Computer and Network Security",
         "CMSC433: Programming Language Technologies and Paradigms",
+        "CMSC421: Intro to Artificial Intelligence", 
         "CMSC420: Advanced Data Structures",
         "CMSC351: Algorithms",
         "CMSC335: Web Development w/ JavaScript",
         "CMSC330: Organization of Programming Languages",
+        "CMSC320: Data Science",
         "CMSC250: Discrete Math",
         "CMSC216: Intro to Computer Systems",
         "CMSC131/132: Object Oriented Programming w/ Java I/II"
